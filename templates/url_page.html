@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}shorten URL{% endblock %}
+
+{% block content %}
+<form action="#", method="post" style="max-width: 500px; margin: 0 auto; padding: 20px; border: 1px solid #ccc; border-radius: 5px;">
+
+    <label for="url" style="font-weight: bold;">Enter an https:// URL:</label>
+
+    <input type="url" name="nm" id="url" style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px;" placeholder="https://example.com" pattern="https://.*" size="50" required>
+    <br>
+
+    <input type="submit" value="submit" class="btn btn-primary" style="background-color: #007bff; color: #fff; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+
+</form>
+
+{% endblock %}
