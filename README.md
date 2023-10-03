@@ -4,3 +4,5 @@ This is a simple flask app which takes an URL and shortens it. This shortened ve
 
 For each long URL given by the user the application randomly generates an alphabetical combination which redirects to the long URL.
 
+When the user types the shortned url and clicks on expand it will give the original long url to the use.
+
